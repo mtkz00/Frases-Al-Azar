@@ -1,0 +1,46 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteparrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    margin: 0;
+    background-color: rgb(52, 176, 248);
+}
+
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto; /* centra elementos */
+}
+
+.frase{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    padding: 6rem;
+    background-color: white;
+
+}
+
+#h1{
+    color:white;
+    -webkit-text-stroke: black 0.2px;
+    font-size: 7rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.cargar-frase{
+    border: 0.3px black solid;
+    border-radius: 20%;
+    padding: 2rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
